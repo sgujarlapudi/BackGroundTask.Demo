@@ -1,7 +1,7 @@
 Running background tasks in an ASP.NET core application.
 We use background services where we connect with cloud-managed services like streams and queues
-which usually implemented throug continusly running methods.
-Most of the managed cloud services as accessed via an HTTP connection, hence there are usually no callbacks
+which usually implemented through continously running methods.
+Most of the managed cloud services are accessed via an HTTP connection, hence there are usually no callbacks
 
 This application has 2 ways of implementing the running background tasks 
 1. Creating a class which implements IHostedService refer to BackgroundPrinter.cs
